@@ -1,0 +1,58 @@
+extends head
+block title
+  title TWIST - Home
+block content
+  .container-fluid.banner
+    img#top(src='twist_logo.png' alt='Teen Women In Science')
+    a.text-light.float-right(href='/register') Register
+
+  .container
+    div
+      h2 What is TWIST?
+      p
+        | TWIST, or Teen Women in Science and Technology, is a one-day conference to expose teen women across the state to various career possibilities. TWIST was developed by K-State Polytechnic and the Salina community more than 25 years ago. TWIST is open to any young woman in 9th through 12th grade. K-State Polytechnic encourages high school sponsors or organizers to register students. Students must register individually to choose their top five career sessions.
+      a.reg(href='/register') Register Here
+      img(src='')
+      h3.py-2 What participants say
+    .row
+      .col-4
+        h4 Betsy L.
+        p "I had fun and hope I can come again." 
+      .col-4
+        h4 Cherrie B.
+        p “It's very fun to learn about different career options." 
+      .col-4
+        h4 Louise A.
+        p “I really liked this conference and can’t wait to attend many more in the future!”
+    div
+      h3 2021 Industry Sessions
+      ul
+        li Chiropractic Care
+        li Dentistry
+        li Engineering
+        li Finance
+        li Graphic Design
+        li Interior Architecture
+        li Law Enforcement
+        li Legal Services
+        li Nonprofit Administration
+        li Professional Pilot
+        li Realty
+        li Research Scientist
+        li Zoo Veterinarian Medicine
+    div
+      h3 Next Event
+      p
+        b
+          | Thursday, Jan. 7, 2021 8:30 a.m. - 1 p.m. K-State Polytechnic Campus Salina, Kansas
+      h3 Location and Travel
+      p
+        | TWIST is hosted on the Kansas State University Polytechnic campus in Salina, KS. Attendees should arrive to the Student Life Center for check-in. The Student Life Center is number 21 on the campus map.
+      p
+        | If you are traveling east or west on I-70, stay on I-70 until the I-70/I-135 interchange. Travel south on I-135 to the Magnolia St. exit (No. 90). Go west on Magnolia to Centennial Rd. Turn right and proceed to the Kansas State Polytechnic campus.
+    footer
+      p &copy; Kansas State University
+      a(href='/login') Admin
+  
+  script(src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous")
+  script(src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous")
